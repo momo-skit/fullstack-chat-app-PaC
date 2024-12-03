@@ -10,7 +10,7 @@ export const useAuthStore = create((set, get) => ({
   // zustand syntax-create store
   authUser: null, // ctrl by check auth
   isSigningUp: false, // ctrl by signup
-  isLoggingIng: false,
+  isLoggingIn: false,
   isUpdatingProfile: false,
 
   isCheckingAuth: true, // ctrl by check auth
